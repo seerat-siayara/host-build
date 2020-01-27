@@ -20,6 +20,6 @@ app.use((req, res, next) => {
 
 const server = https.createServer(options, app);
 
-server.listen(80, () => {
+app.listen(80, () => {
     console.log(`Server is up and running at ${80}`)
 })
